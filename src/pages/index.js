@@ -1,5 +1,14 @@
-import React from "react"
+import React from 'react'
+import Navbar from '../components/Navbar'
+import '../styles/index.scss'
 
-export default function Home() {
-  return <div>Hello world!</div>
+const Index = () => {
+  return (
+    <div>
+      <Navbar />
+      <h1>Theo's Boutique Home Page</h1>
+    </div>
+  )
 }
+
+export default Index
